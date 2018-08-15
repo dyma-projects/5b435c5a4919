@@ -12,4 +12,8 @@ export class Exercice2Component implements OnInit {
   ngOnInit() {
   }
 
+  logInConsole() {
+    console.log("click");
+  }
+
 }

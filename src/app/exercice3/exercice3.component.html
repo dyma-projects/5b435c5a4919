@@ -1,10 +1,14 @@
 <p>
   exercice3 works!
 </p>
-<p>
-  p1
-</p>
-<p>
-  p2
-</p>
+<ng-template [ngIf]='statut'>
+  <p>
+    p1
+  </p>
+</ng-template>
+<ng-template [ngIf]='!statut'>
+  <p>
+    p2
+  </p>
+</ng-template>
 <button (click)='changeStatut()'>Boutton</button>
